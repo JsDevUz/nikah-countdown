@@ -52,6 +52,7 @@ const Countdown = () => {
             </div>
           ))}
         </div>
+        <p className="save-text">2025-yilning 14-sentabr kuni.</p>
       </div>
     </div>
   );
