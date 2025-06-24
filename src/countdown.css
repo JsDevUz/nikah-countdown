@@ -5,6 +5,8 @@
   position: relative;
   height: 100vh;
   padding: 0 30px;
+  width: calc(100vw - 0px);
+  box-sizing: border-box;
   color: white;
   font-family: "Helvetica Neue", sans-serif;
   display: flex;
@@ -12,7 +14,11 @@
   align-items: center;
   text-align: center;
 }
-
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .overlay {
   position: absolute;
   inset: 0;
@@ -29,6 +35,7 @@
   letter-spacing: 2px;
   margin-bottom: 10px;
   opacity: 0.8;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 h1 {
