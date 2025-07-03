@@ -5,7 +5,7 @@ import "./countdown.css"; // Ensure you have the CSS file for styling
 
 dayjs.extend(duration);
 
-const TARGET_DATE = dayjs("2025-09-14T05:00:00");
+const TARGET_DATE = dayjs("2025-09-13T19:00:00");
 
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
